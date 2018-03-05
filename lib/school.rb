@@ -12,7 +12,7 @@ class School
       @roster[grade_level] << student
     else
       @roster[grade_level] << student
-    end
+    end #if @roster
   end #def add_student
 
 end
