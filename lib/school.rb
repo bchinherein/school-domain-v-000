@@ -7,7 +7,7 @@ class School
     end #def roster
   end #def initialize
 
-  def add_student(grade_level, )
+  def add_student(grade_level, @name)
     roster[grade_level] = []
     roster[grade_level] <<
 
