@@ -20,5 +20,6 @@ class School
   end #def grade
 
   def sort(roster)
+    @roster
   end #def sort
 end
