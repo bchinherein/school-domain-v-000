@@ -3,7 +3,7 @@ attr_reader :school, :roster
 
   def initialize(school)
     @school = school
-      roster = {}
+    roster = {}
   end #def initialize
 
   def add_student(grade_level, name)
