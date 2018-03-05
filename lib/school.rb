@@ -16,5 +16,5 @@ class School
   end #def add_student
 
   def grade(grade_level)
-  end
+  end #def grade
 end
