@@ -21,6 +21,6 @@ class School
 
   def sort(roster)
     @roster
-    student.sort
+    student!.sort
   end #def sort
 end
