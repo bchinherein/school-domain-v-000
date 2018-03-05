@@ -19,7 +19,7 @@ class School
     @roster[grade_level]
   end #def grade
 
-  def sort(roster, student)
+  def sort
     @roster.each_value {|value| value.sort!}
     puts @roster
   end #def sort
