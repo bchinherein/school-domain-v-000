@@ -21,6 +21,6 @@ class School
 
   def sort
     @roster.each_value {|value| value.sort!}
-    return @roster
+    @roster
   end #def sort
 end
