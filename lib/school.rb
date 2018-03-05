@@ -16,5 +16,6 @@ class School
   end #def add_student
 
   def grade(grade_level)
+    @roster[grade_level]
   end
 end
