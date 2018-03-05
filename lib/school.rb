@@ -20,6 +20,6 @@ class School
   end #def grade
 
   def sort(roster)
-    @roster.student.sort!
+    @roster.each_value {|value| value.sort!}
   end #def sort
 end
