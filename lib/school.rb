@@ -15,7 +15,5 @@ class School
     end #if @roster
   end #def add_student
 
-  def grade(grade_level)
-    
-  end #def grade
+
 end
