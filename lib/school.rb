@@ -7,6 +7,7 @@ class School
   end #def initialize
 
   def add_student(student, grade_level)
+    @roster[grade_level] = []
   end #def add_student
 
 end
